@@ -16,3 +16,27 @@ COMMAND: date && echo "Amex was founded in 1850."
 Sun Jun 22 11:26:53 IST 2025
 Amex was founded in 1850.
 
+
+[2025-06-22T05:59:53.063Z]
+COMMAND: date && echo "Amex is headquartered in New York"
+Sun Jun 22 11:29:53 IST 2025
+Amex is headquartered in New York
+
+
+[2025-06-22T06:04:53.057Z]
+COMMAND: date && echo "Amex has significantly invested in AI, machine learning, and cybersecurity "
+Sun Jun 22 11:34:53 IST 2025
+Amex has significantly invested in AI, machine learning, and cybersecurity 
+
+
+[2025-06-22T06:06:53.051Z]
+COMMAND: date && echo "Amex offers corporate cards, travel services, and business financing"
+Sun Jun 22 11:36:53 IST 2025
+Amex offers corporate cards, travel services, and business financing
+
+
+[2025-06-22T06:09:53.051Z]
+COMMAND: date && echo "Amex’s major revenue comes from merchant fees"
+Sun Jun 22 11:39:53 IST 2025
+Amex’s major revenue comes from merchant fees
+
