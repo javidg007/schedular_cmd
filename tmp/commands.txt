@@ -1,0 +1,10 @@
+
+*/1 date && echo "Amex' motto is 'Don't live life without it!'"
+*/2 date && echo "Amex was founded in 1850."
+*/5 date && echo "Amex is headquartered in New York"
+*/10 date && echo "Amex has significantly invested in AI, machine learning, and cybersecurity "
+*/12 date && echo "Amex offers corporate cards, travel services, and business financing"
+*/15 date && echo "Amex’s major revenue comes from merchant fees"
+*/20 date && echo "Amex operates a closed-loop network"
+*/30 date && echo "Amex emphasizes integrity, inclusion, and innovation"
+*/60 date && echo "Amex invest in FinTech and digital experiences"

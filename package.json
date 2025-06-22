@@ -1,0 +1,20 @@
+{
+  "name": "schedular_cmd",
+  "version": "1.0.0",
+  "main": "schedular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javidg007/schedular_cmd.git"
+  },
+  "keywords": [],
+  "author": "Javid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javidg007/schedular_cmd/issues"
+  },
+  "homepage": "https://github.com/javidg007/schedular_cmd#readme",
+  "description": ""
+}
