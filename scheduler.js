@@ -24,7 +24,6 @@ function executeCommand(command) {
     if(error){
         console.log(error);
         return
-        
     }
     console.log('hii');
     
