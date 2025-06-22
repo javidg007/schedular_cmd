@@ -6,10 +6,16 @@ const path = require('path');
 const COMMAND_FILE = path.join(__dirname, '/tmp/commands.txt');
 const OUTPUT_FILE = path.join(__dirname, 'sample-output.txt');
 
-const startTime = Date.now();
+let startTime = Date.now();
 const executedHashes = new Set();
 
+const lines = fs.readFileSync(COMMAND_FILE, 'utf8')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(line => line && line.startsWith('*/'));
+    const totalcommands = lines.length;
 
+    
 const crypto = require('crypto');
 function hashCommand(cmd) {
   return crypto.createHash('md5').update(cmd).digest('hex');
@@ -35,11 +41,7 @@ function executeCommand(command) {
 function runScheduler() {
   const elapsedMinutes = Math.floor((Date.now() - startTime) / 60000);
 
-  const lines = fs.readFileSync(COMMAND_FILE, 'utf8')
-    .split('\n')
-    .map(line => line.trim())
-    .filter(line => line && line.startsWith('*/'));
-
+  
   lines.forEach(line => {
     const match = line.match(/^\*\/(\d+)\s+(.*)/);
     if (!match) return;
@@ -53,6 +55,11 @@ function runScheduler() {
       executeCommand(command);
       executedHashes.add(hash);
     }
+     if( executedHashes === totalcommands){
+      executedHashes.clear();
+      startTime =Date.now();
+     }
+
   });
 }
 
