@@ -8,3 +8,5 @@
 */20 date && echo "Amex operates a closed-loop network"
 */30 date && echo "Amex emphasizes integrity, inclusion, and innovation"
 */60 date && echo "Amex invest in FinTech and digital experiences"
+
+24 11 22 6 2025 date && echo "At Amex, We Do What's Right." 
